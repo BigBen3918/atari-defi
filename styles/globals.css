@@ -1,0 +1,303 @@
+
+@font-face {
+  font-family: 'bwmodel';
+  src: url('../public/font/BwModelicaSS01-Regular.otf');
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'bwmodel' !important;
+    /* background-color: black!important; */
+    background-image: url("../public/img/background.png");
+  background-size: cover;
+  background-position: center ;
+
+  height:100vh;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.MuiGrid-spacing-xs-3{
+  width: 100% !important;
+  margin:0 !important
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.diceGrid{
+  margin-left: 15%;
+  width: 70%;
+}
+.diceGrid1{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+.box_rect{
+  background-color:rgba(33, 36, 41,0.4);
+  padding:10px;
+  border-radius:20px
+}
+.bottom_border{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 10px;
+}
+.bottom_border1{
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+
+}
+.x-font1{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.x-font2{
+  color: white!important;
+  font-size: 30px!important;
+  font-weight: 500!important;
+}
+.x-font3{
+  color: white!important;
+  font-size: 15px!important;
+  font-weight: 500!important;
+}
+.x-font3_1{
+  color: rgba(255,255,255,0.8) !important;
+  font-size: 13px!important;
+  font-weight: 300!important;
+}
+.x-font3_2{
+  color: white!important;
+  font-size: 20px!important;
+  font-weight: 500!important;
+}
+.x-font4{
+  color: white!important;
+  font-size: 13px!important;
+  font-weight: 500!important;
+}
+
+.x-font5{
+  color: rgb(192, 40, 40)!important;
+  font-size: 22px!important;
+  font-weight: 500!important;
+}
+
+.x-font5-2{
+  color: rgb(255, 255, 255)!important;
+  font-size: 20px!important;
+  font-weight: 500!important;
+}
+
+.x-nav-button{
+  float: right;
+  background-color: transparent !important;
+  font-size: 18px!important;
+  font-weight: 550!important;
+  color:white !important;
+  margin-left:40px !important;
+  border: 2px solid white !important;
+  
+  border-radius: 25px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+
+}
+.home_button{
+  background-color: #e31e2d;
+  padding:10px;
+  border-radius: 20px;
+  border:none !important;
+  color:white;
+  width:200px;
+  font-size: 14px;
+}
+.menu_button{
+  color:white !important;
+  text-transform:capitalize !important;
+  float: right;
+}
+.x-nav-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.x-home-top-button{
+  background-color: #e31e2d !important;
+  width: 91px;
+  margin-right: 1px!important;
+  margin-left: 1px!important;
+  font-size: 15px !important;
+  border-radius: 20px !important;
+  color:white !important
+}
+
+.x-home-top-container{
+  background-color: #222222!important;
+  padding-left:3px !important;
+  padding-right: 3px !important;
+  border-radius: 20px !important;
+}
+.x-swapCard-container{
+  border-radius: 20px;
+  /* background-color: rgba(26,27,31,0.6); */
+  padding:20px;
+}
+.x-swapForm-input{
+  width: 100%;
+  height: 50px;
+  color: gray;
+  font-size: 25px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  text-align: right;
+}
+.x-swapForm-dropdown{
+  width: 80%;
+  height: 40px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  background-color: rgb(26,27,31);
+  color: white;
+  justify-content: center;
+  border-radius: 30px;
+}
+.x-swapForm-dropdown-item{
+  width: 100%;
+  height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  color: white;
+  text-align: left;
+  background: rgb(26,27,31);
+}
+.x-swapForm-dropdown-container{
+  z-index: 20;
+  position: absolute;
+  width:15%;
+  margin-top:5px
+}
+.MuiRadio-colorPrimary.Mui-checked{
+  /* color:#e31e2d !important */
+  color:rgba(255,255,255,0.8) !important
+}
+.MuiRadio-root{
+  color:rgba(255,255,255,0.8) !important
+}
+.x-swapCard-submit-button{
+  background-color: rgb(13,191,74);
+  font-size: 22px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  border-radius: 58px;
+  padding: 11px;
+  width: 90%;
+  margin-bottom: 20px;
+}
+.pl-10{
+  padding-left:15px
+}
+.x-swapCard-submit-button1{
+  width: 100%;
+  background-color: #3c3fcf;
+  font-size: 25px;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  border-radius: 5px;
+}
+.x-infoCard{
+  padding: 3%;
+  background-color: #1b1d31;
+  border-radius: 5px;
+}
+.x-stake-field{
+  background-color: rgb(26, 27, 31);
+  /* height: 47px; */
+  padding: 1%;
+  text-align: center;
+  border-radius: 20px;
+}
+.top_section{
+  background-image: url(/img/2.png);
+    background-size: 100% 100%;
+    padding: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    padding-left:15px;
+}
+.top_section img{
+  margin-left:auto;
+  margin-right: 5px;
+  width: 24px;
+  height: 26px;
+  align-self: center;
+}
+.y-card-form-top{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  background-color: rgba(61, 14, 14, 0.442);  
+
+}
+.y-card-form-top1{
+  /* border: 2px solid red; */
+  border-radius: 15px;
+  background-color: rgba(61, 14, 14, 0.442);  
+  width:80%;
+  margin:auto;
+  background-image: url(/img/4.png);
+    background-position: 40pxpx 100%;
+    background-size: 100;
+    background-size: 49px 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.y-card-input{
+  border-bottom: 1px solid #d13737!important;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  float: right;
+  color: white;
+  padding-bottom: 10px;
+  max-width: 150px;
+}
+
+.y-card-form-top1 .MuiGrid-spacing-xs-3 > .MuiGrid-item{
+  padding:5px !important
+}
+
+.y-card-form-top1 .MuiGrid-root{
+  padding-right:20px
+}
+
+.widthdraw-container{
+  padding-top: 100px;
+}
+
+.y-card-form-body {
+  padding: 40px;
+}
